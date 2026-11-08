@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans TC", ui-sans-serif, system-ui, "PingFang TC", "Microsoft JhengHei", sans-serif;
+
+  --color-brand-50: #eff8f5;
+  --color-brand-100: #d8eee6;
+  --color-brand-200: #b3ddcf;
+  --color-brand-500: #3f9e83;
+  --color-brand-600: #2f826b;
+  --color-brand-700: #276857;
+  --color-brand-800: #225447;
+  --color-brand-900: #1d453b;
+
+  --color-accent-100: #fdecd9;
+  --color-accent-500: #e8893a;
+  --color-accent-600: #cf6f22;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-slate-700 antialiased;
+}
+
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-brand-500;
+}
