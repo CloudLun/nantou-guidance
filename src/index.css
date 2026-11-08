@@ -3,14 +3,15 @@
 @theme {
   --font-sans: "Noto Sans TC", ui-sans-serif, system-ui, "PingFang TC", "Microsoft JhengHei", sans-serif;
 
-  --color-brand-50: #eff8f5;
-  --color-brand-100: #d8eee6;
-  --color-brand-200: #b3ddcf;
-  --color-brand-500: #3f9e83;
-  --color-brand-600: #2f826b;
-  --color-brand-700: #276857;
-  --color-brand-800: #225447;
-  --color-brand-900: #1d453b;
+  /* 主色 #4BA799 */
+  --color-brand-50: #f1f8f7;
+  --color-brand-100: #dfefed;
+  --color-brand-200: #bbded8;
+  --color-brand-500: #6bb7ab;
+  --color-brand-600: #4ba799;
+  --color-brand-700: #3c867a;
+  --color-brand-800: #316d63;
+  --color-brand-900: #26544c;
 
   --color-accent-100: #fdecd9;
   --color-accent-500: #e8893a;

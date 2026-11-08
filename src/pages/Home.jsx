@@ -2,7 +2,7 @@ import { Link } from 'react-router'
 import { navigation, site } from '../data/navigation'
 import { sortedEvents } from '../content/events'
 import EventCard from '../components/EventCard'
-import { ChevronRight, PhoneIcon } from '../components/Icons'
+import { ChevronRight } from '../components/Icons'
 
 const quickLinks = [
   { title: '下載轉介單', path: '/guidance/referral' },
@@ -34,16 +34,6 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="mx-auto max-w-6xl px-4">
-        <a href="tel:113" className="-mt-6 flex items-center gap-3 rounded-xl border border-rose-200 bg-white p-4 shadow-sm hover:bg-rose-50">
-          <span className="grid h-10 w-10 place-items-center rounded-full bg-rose-100 text-rose-600">
-            <PhoneIcon className="h-5 w-5" />
-          </span>
-          <span className="text-sm text-slate-600">
-            發現兒少疑似受虐？請撥打 <strong className="text-lg text-rose-600">113</strong> 保護專線，24 小時服務
-          </span>
-        </a>
-      </div>
 
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 lg:grid-cols-[1fr_380px]">
         <section aria-labelledby="services">
@@ -63,7 +53,7 @@ export default function Home() {
 
         <section aria-labelledby="latest">
           <div className="flex items-baseline justify-between">
-            <h2 id="latest" className="text-xl font-bold text-slate-900">最新活動</h2>
+            <h2 id="latest" className="text-xl font-bold text-slate-900">活動訊息</h2>
             <Link to="/events" className="text-sm text-brand-700 hover:underline">看全部</Link>
           </div>
           <ul className="mt-4 space-y-3">
