@@ -2,7 +2,7 @@
 export const site = {
   name: '南投縣南投市新豐國小學生輔導資源中心',
   shortName: '學生輔導資源中心',
-  county: '南投縣',
+  county: '南投縣南投市新豐國小',
   address: '台灣南投縣南投市新興里彰南路三段221號',
   phone: '049-000-0000',
   email: 'service@example.edu.tw',
